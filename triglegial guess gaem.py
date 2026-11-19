@@ -18,4 +18,6 @@ class Rectangle:
         self.upperright = upperright
 
 rechangle_value = Rectangle([1, 2], [4,6])
+print(f"The value of lowerleft is x is {rechangle_value.lowerleft[0]} y is {rechangle_value.lowerleft[1]}")
+print(f"The value of upperleft is x is {rechangle_value.upperright[0]} y is {rechangle_value.upperright[1]}")
 print(rechangle_value.lowerleft[0])
